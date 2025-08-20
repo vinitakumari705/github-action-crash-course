@@ -5,6 +5,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: greeting the projectname
-        run: echo"first project"
+        run: echo "first project"
 
 
