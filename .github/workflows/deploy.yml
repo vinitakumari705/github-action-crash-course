@@ -11,8 +11,10 @@ jobs:
               with: 
                 node-version: 18
             - name: Install npm
+              working-directory: .github/workflows/code/02 Basics/02 Starting Project
               run: npm install
             - name: Run tests
+              working-directory: .github/workflows/code/02 Basics/02 Starting Project
               run: npm test
 
 
